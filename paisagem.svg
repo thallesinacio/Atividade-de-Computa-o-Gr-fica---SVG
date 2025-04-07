@@ -1,0 +1,45 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+ <!-- céu -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="600">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="100%" stop-color="#E0F7FA" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)" />
+
+  <!-- sol -->
+  <circle cx="1000" cy="120" r="80" fill="#FFEB3B" filter="url(#sun-glow)" />
+
+  <!-- brilho do sol -->
+  <defs>
+    <filter id="sun-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- montanhas  -->
+  <polygon points="0,600 300,250 500,400 800,150 1200,600" fill="#4CAF50" opacity="0.9" />
+
+  <!-- grama -->
+  <rect x="0" y="500" width="1200" height="100" fill="#8BC34A" />
+
+  <!-- árvore 1 -->
+  <rect x="200" y="450" width="30" height="80" fill="#5D4037" /> <!-- Tronco -->
+  <circle cx="215" cy="420" r="60" fill="#2E7D32" /> <!-- Copa -->
+
+  <!-- árvore 2 -->
+  <rect x="400" y="470" width="25" height="60" fill="#5D4037" />
+  <circle cx="412" cy="440" r="50" fill="#2E7D32" />
+
+  <!-- nuvem -->
+  <g transform="translate(150, 100)">
+    <circle cx="0" cy="0" r="40" fill="white" />
+    <circle cx="60" cy="0" r="50" fill="white" />
+    <circle cx="30" cy="-30" r="45" fill="white" />
+  </g>
+
+  <!-- rio -->
+  <path d="M 0 550 Q 300 520 600 540 Q 900 560 1200 530 L 1200 600 L 0 600 Z" fill="#40C4FF" opacity="0.6" />
+</svg>

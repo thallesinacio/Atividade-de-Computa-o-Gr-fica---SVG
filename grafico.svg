@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" preserveAspectRatio="none">
+
+
+  <rect x="0" y="0" width="100%" height="100%" style="fill:#0d4a52"/>
+
+    <!-- Eixo X -->
+  <line x1="40" y1="550" x2="980" y2="550" stroke="black" stroke-width="2"/>
+
+  <!-- Eixo Y -->
+  <line x1="40" y1="550" x2="40" y2="50" stroke="black" stroke-width="2"/>
+  
+  <line x1="40" y1="460" x2="980" y2="460" stroke="black" stroke-width="2" stroke-opacity="0.4"/>
+  <line x1="40" y1="370" x2="980" y2="370" stroke="black" stroke-width="2" stroke-opacity="0.4"/>
+  <line x1="40" y1="280" x2="980" y2="280" stroke="black" stroke-width="2" stroke-opacity="0.4"/>
+  <line x1="40" y1="190" x2="980" y2="190" stroke="black" stroke-width="2" stroke-opacity="0.4"/>
+  <line x1="40" y1="100" x2="980" y2="100" stroke="black" stroke-width="2" stroke-opacity="0.4"/>
+
+  <text x="4" y="555" font-family="Arial">-0,5</text>
+  <text x="10" y="465" font-family="Arial">0</text>
+  <text x="10" y="375" font-family="Arial">0,5</text>
+  <text x="10" y="285" font-family="Arial">1</text>
+  <text x="10" y="195" font-family="Arial">1,5</text>
+  <text x="10" y="105" font-family="Arial">2</text>
+  
+
+
+
+  <text x="270" y="50" font-size="30" font-family="Segoe UI">
+  VALORES 
+  <tspan fill="green">IGP-M</tspan> 
+  X 
+  <tspan fill="yellow">IPCA</tspan> 
+  EM 2024
+  </text>
+
+  <!-- IPCA (linha amarela) -->
+<polyline
+  fill="none"
+  stroke="yellow"
+  stroke-width="3"
+  points="100,384.4 180,385.6 260,387.2 340,381.6 420,384.4 500,384.2 580,377.6 660,369.6 740,384.2 820,385.8 900,378.4 980,384.4"
+/>
+
+
+  <!-- IGPM (linha verde) -->
+<polyline
+  fill="none"
+  stroke="green"
+  stroke-width="3"
+  points="100,377.4 180,355.6 260,356.6 340,379.8 420,385.5 500,384.1 580,382.0 660,379.3 740,382.2 820,400.4 900,396.0 980,386.4"
+/>
+
+  <circle cx="100" cy="384.4" r="6" fill="yellow"><title>IPCA Jan: 0,42%</title></circle>
+  <circle cx="180" cy="385.6" r="6" fill="yellow"><title>IPCA Fev: 0,83%</title></circle>
+  <circle cx="260" cy="387.2" r="6" fill="yellow"><title>IPCA Mar: 0,71%</title></circle>
+  <circle cx="340" cy="381.6" r="6" fill="yellow"><title>IPCA Abr: 1,06%</title></circle>
+  <circle cx="420" cy="384.4" r="6" fill="yellow"><title>IPCA Mai: 0,42%</title></circle>
+  <circle cx="500" cy="384.2" r="6" fill="yellow"><title>IPCA Jun: 0,43%</title></circle>
+  <circle cx="580" cy="377.6" r="6" fill="yellow"><title>IPCA Jul: 0,88%</title></circle>
+  <circle cx="660" cy="369.6" r="6" fill="yellow"><title>IPCA Ago: 1,28%</title></circle>
+  <circle cx="740" cy="384.2" r="6" fill="yellow"><title>IPCA Set: 0,43%</title></circle>
+  <circle cx="820" cy="385.8" r="6" fill="yellow"><title>IPCA Out: 0,82%</title></circle>
+  <circle cx="900" cy="378.4" r="6" fill="yellow"><title>IPCA Nov: 0,86%</title></circle>
+  <circle cx="980" cy="384.4" r="6" fill="yellow"><title>IPCA Dez: 0,42%</title></circle>
+
+  <circle cx="100" cy="377.4" r="6" fill="green" stroke="black" stroke-width="1.5">
+<title>IGP-M Jan: 0,69%</title>
+</circle>
+<circle cx="180" cy="355.6" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Fev: 1,30%</title>
+</circle>
+<circle cx="260" cy="356.6" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Mar: 1,25%</title>
+</circle>
+<circle cx="340" cy="379.8" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Abr: 0,61%</title>
+</circle>
+<circle cx="420" cy="385.5" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Mai: 0,25%</title>
+</circle>
+<circle cx="500" cy="384.1" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Jun: 0,43%</title>
+</circle>
+<circle cx="580" cy="382.0" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Jul: 0,53%</title>
+</circle>
+<circle cx="660" cy="379.3" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Ago: 0,63%</title>
+</circle>
+<circle cx="740" cy="382.2" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Set: 0,52%</title>
+</circle>
+<circle cx="820" cy="400.4" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Out: -0,28%</title>
+</circle>
+<circle cx="900" cy="396.0" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Nov: -0,08%</title>
+</circle>
+<circle cx="980" cy="386.4" r="6" fill="green" stroke="black" stroke-width="1.5">
+  <title>IGP-M Dez: 0,18%</title>
+</circle>
+
+  <!-- meses -->
+  <g font-size="18" fill="black" font-family="Arial">
+    <text x="60" y="580">Jan</text>
+    <text x="140" y="580">Fev</text>
+    <text x="220" y="580">Mar</text>
+    <text x="300" y="580">Abr</text>
+    <text x="380" y="580">Mai</text>
+    <text x="460" y="580">Jun</text>
+    <text x="540" y="580">Jul</text>
+    <text x="620" y="580">Ago</text>
+    <text x="700" y="580">Set</text>
+    <text x="780" y="580">Out</text>
+    <text x="860" y="580">Nov</text>
+    <text x="940" y="580">Dez</text>
+  </g>
+
+
+</svg>
